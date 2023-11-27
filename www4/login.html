@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/light-theme-login.css">
+</head>
+<body class="body">
+    <header class="header">
+        <div class="fashion">FASHION</div>
+        <div class="rectangleheader"></div>
+    </header>
+        <div class="box">
+            <div class="welcome">Welcome to FASHION!</div>
+            <div class="welcome">Please register your account and read the policies!</div>
+            <form action="">
+                <fieldset class="field">
+                    <legend class="cinfo">Your Contact Info</legend>
+                    <div class="info">
+                    <input type="name" id="name" size="40" maxlength="25" placeholder="Your Nickname" required pattern="[a-zA-Z]+" title="Only letters!">
+                    <input type="email" id="email" size="40" placeholder="E-mail" required>
+                    <input type="password" id="password" size="40" maxlength="25" placeholder="Password" required>
+                </div>
+                </fieldset>
+                <div class="policies">I agree with policies* By agreeing with out policies we own your soul and your family
+                    <input type="checkbox" class="checkbox" required>
+                    <input type="submit" class="submit">
+                </div>
+            </form>
+    </div>
+    <aside id ="login">
+        <script src="js/login.js"></script>
+    </aside>
+    <footer class="footer">@2023 SANYA PAPYRUS. All Right Reserved.</footer>
+</body>
+</html>
